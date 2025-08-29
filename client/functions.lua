@@ -56,7 +56,7 @@ RegisterNUICallback('startCrafting', function(data, cb)
 
         local success = FM.progress.start({
             label = getLocale('crafting_item'),
-            time = item.duration,
+            time = item.duration * amount,
             canCancel = false,
             type = 'linear',
             failedLabel = getLocale('crafting_item_failed'),
