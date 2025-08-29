@@ -1,0 +1,6 @@
+workbench = { name = "workbench", label = "Workbench", weight = 10, type = "item", image = "workbench.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Workbench" },
+advanced_workbench = { name = "advanced_workbench", label = "Advanced Workbench", weight = 10, type = "item", image = "advanced_workbench.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Advanced Workbench" },
+plastic = { name = "plastic", label = "Plastic", weight = 10, type = "item", image = "plastic.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Plastic" },
+metal_scrap = { name = "metal_scrap", label = "Metal Scrap", weight = 10, type = "item", image = "metal_scrap.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Metal Scrap" },
+steel = { name = "steel", label = "Steel", weight = 10, type = "item", image = "steel.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Steel" },
+aluminum = { name = "aluminum", label = "Aluminum", weight = 10, type = "item", image = "aluminum.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Aluminum" },

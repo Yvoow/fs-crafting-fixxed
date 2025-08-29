@@ -1,0 +1,17 @@
+Locales['en'] = {
+  ['home'] = 'Home',
+  ['title'] = 'Workbench',
+  ['not_all_items'] = 'You don\'t have all the required items',
+  ['crafting_item'] = 'Crafting item...',
+  ['crafting_item_failed'] = 'Crafting failed',
+  ['crafting_item_success'] = 'Item crafted successfully',
+  ['progress_label'] = 'Setting up workbench...',
+  ['progress_failed'] = 'Failed to set up workbench',
+  ['progress_success'] = 'Workbench set up successfully',
+  ['picking_up_workbench'] = 'Picking up workbench...',
+  ['picking_up_workbench_failed'] = 'Failed to pick up workbench',
+  ['picking_up_workbench_success'] = 'Workbench picked up successfully',
+  ['pick_up'] = 'Pick up',
+  ['use_workbench'] = '[E] Use workbench',
+  ['pickup_workbench'] = '[K] Pick up workbench',
+}

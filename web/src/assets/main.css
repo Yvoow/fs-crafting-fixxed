@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: none;
+}
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --primary: #FF8563;
+  --secondary: #2B89EF;
+  --background: #111111;
+  --blocks: #161616;
+  --blocks2: #333333;
+  --primaryText: #FFFFFF;
+  --secondaryText: #777777;
+}
+
+
+@layer components {
+
+  .btn {
+    @apply items-center justify-center text-[18px] leading-[18px] py-[15px] px-[25px] rounded-[5px] font-medium cursor-pointer transition-all duration-300
+  }
+
+  .btn-primary {
+    @apply flex gap-[15px] bg-primary text-background hover:bg-transparent border border-transparent hover:border-blocks hover:text-blocks
+  }
+
+  .btn-primary-blue {
+    @apply flex gap-[15px] bg-secondary text-background hover:bg-transparent border border-transparent hover:border-blocks hover:text-blocks
+  }
+
+  .btn-secondary {
+    @apply border text-center justify-center items-center border-background-400 text-background hover:border-transparent hover:bg-primary hover:text-background-950
+  }
+
+  .btn-secondary-blue {
+    @apply border text-center justify-center items-center border-background-400 text-background-400 hover:border-transparent hover:bg-secondary hover:text-background-950
+  }
+
+  .btn-arrow {
+    @apply group-hover:rotate-90 transition-all duration-300
+  }
+
+}
